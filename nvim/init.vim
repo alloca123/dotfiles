@@ -21,6 +21,8 @@ if executable('clangd')
                     \ 'whitelist': ['c', 'cpp'],
                     \ })
         autocmd FileType c setlocal omnifunc=lsp#complete
+	autocmd FileType c let b:vcm_tab_complete = "omni"
         autocmd FileType cpp setlocal omnifunc=lsp#complete
+	autocmd FileType cpp let b:vcm_tab_complete = "omni"
     augroup end
 endif
