@@ -3,6 +3,7 @@ Plug 'reedes/vim-colors-pencil'
 Plug 'prabirshrestha/async.vim'
 Plug 'prabirshrestha/vim-lsp'
 Plug 'ajh17/vimcompletesme'
+Plug 'mcchrish/nnn.vim'
 call plug#end()
 set termguicolors
 set background=dark
